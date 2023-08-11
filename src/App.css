@@ -1,0 +1,41 @@
+.nav-up{ display: flex;
+justify-content: space-between;
+
+background-color:black;
+
+}
+.title{
+  margin-left: 45px;
+  color:white;
+  
+}
+.cart{
+ 
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  border: none;
+  color:white;
+ border-radius: 25px;
+ display: inline-flex;
+ padding: 15px;
+ cursor: pointer;
+}
+h3{
+  position: relative;
+  bottom: 11px;
+}
+.num{
+  border: 2px solid white;
+  color:white;
+  width: 25px;
+  height: 19px;
+  margin-left:7px;
+  margin-top: 3px;
+  border-radius: 7px;
+  background-color: beige;
+  color:black;
+  font-size: 15px;
+}
