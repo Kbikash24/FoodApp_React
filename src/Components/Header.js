@@ -6,7 +6,7 @@ const Header = (props) => {
   return (
     <>
       <nav>
-        {" "}
+    
         <div className="nav-up">
           <h1 className="title">ForkFleet<DinnerDiningIcon/></h1>
           <button className="cart">
@@ -19,11 +19,12 @@ const Header = (props) => {
             <span className="num">0</span>
           </button>
         </div>
-        <img
-          src="https://source.unsplash.com/1300x200/?indianfoods"
-          alt="img"
-        ></img>
+       
       </nav>
+    <div className="img"><img
+          src="https://source.unsplash.com/1300x400/?biryani"
+          alt="img"
+        ></img></div>  
       <div className="summary">
         <h2>ForkFleet: Savor Delights, Order with Ease</h2>
         <p>

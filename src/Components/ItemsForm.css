@@ -1,0 +1,27 @@
+.form {
+    text-align: right;
+   position: absolute;
+ 
+  
+  }
+  
+  .form button{
+    width:60px;
+    height: 26px;
+    background-color: rgb(206, 11, 11);
+    border: none;
+    color: white;
+    border-radius: 14px;
+    margin-left: 5px;
+    position: relative;
+    top:-30px;
+    left: 450px;
+  }
+  .form input{
+    width:16px;
+    position: relative;
+    top:-60px;
+    left: 500px;
+
+
+  }

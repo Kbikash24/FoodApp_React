@@ -1,0 +1,13 @@
+.items{
+  
+    position: absolute;
+    background-color: rgb(253, 252, 240);
+    left: 335px;
+    height:290px;
+    width: 600px;
+    top:630px;
+    border-radius: 10px;
+   padding-bottom: 30px;
+    padding-right: 20px;
+  padding-top: 10px;
+  }

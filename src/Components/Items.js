@@ -1,19 +1,22 @@
 import React from "react";
-import './Items.css' 
+import ItemsForm from "./ItemsForm";
+import "./Items.css";
 
-
-const Items=(props)=>{
-   return(
+const Items = (props) => {
+  return (
     <>
-    <div className="foods">
-        <h3>{props.name}</h3>
-       <span> <p>{props.desc}</p></span>
-        <h3>${props.price}</h3>
+      <li className="foods">
+        <div >
+            <ul><h2>{props.name}</h2>
+          <div className="description">{props.desc}</div>
+          <div className="prices">${props.price}</div>
+         <div><ItemsForm/></div></ul>
+          
+        </div>
         <hr></hr>
-        
-    </div>
+      </li>
     </>
-   )
+  );
+};
 
-}
 export default Items;

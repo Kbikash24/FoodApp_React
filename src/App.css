@@ -1,9 +1,12 @@
 .nav-up {
   display: flex;
   justify-content: space-between;
-
   background-color: black;
   background: linear-gradient(rgb(235, 79, 0), #f47a00);
+  position: fixed; /* Fix the position at the top of the viewport */
+  top: 0; /* Align it to the top */
+  width: 100%; /* Take the full width of the viewport */
+  z-index: 999; /* Ensure it's above other elements */
 }
 .title {
   margin-left: 45px;
@@ -47,13 +50,15 @@ h3 {
   width: 600px;
   height: 200px;
   margin-left: 330px;
-  top: -80px;
+  top: -50px;
   padding-bottom: 25px;
   padding-left: 15px;
   padding-right: 15px;
+  
   font-family: 'Bricolage Grotesque', sans-serif;
-  font-family: 'Inter', sans-serif;
-  font-family: 'Noto Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Noto Sans', sans-serif;
   background-color: rgb(180, 176, 176);
   color: white;
   background: linear-gradient(rgb(235, 79, 0), #f4c290);
@@ -61,20 +66,7 @@ h3 {
 h2 {
   margin-left: 45px;
 }
-.items{
-  
-  position: absolute;
-  background-color: rgb(253, 252, 240);
-  left: 343px;
-  height:330px;
-  width: 600px;
-  top:470px;
-  border-radius: 10px;
-  padding-top: 5px;
-  padding-bottom: 25px;
-  padding-left: 15px;
 
-}
 
 body{
   background-color: #fedbb7;
