@@ -14,6 +14,10 @@ const Fooditems = [
       desc: "Fragrant rice dish cooked with spices, vegetables, and choice of meat.",
       price: 14.99
     },
+
+    
+
+    
     
   ];
   

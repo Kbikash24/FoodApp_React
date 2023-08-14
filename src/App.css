@@ -35,15 +35,15 @@ h3 {
   bottom: 11px;
 }
 .num {
-  border: 2px solid white;
+ 
   color: white;
   width: 25px;
   height: 17px;
-  margin-left: 7px;
-  margin-top: 3px;
+  margin-left: 4px;
+  margin-top: 6px;
   border-radius: 7px;
-  background-color: white;
-  color: black;
+  background-color: rgb(225, 49, 1);
+  
   font-size: 15px;
 }
 
