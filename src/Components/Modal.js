@@ -9,7 +9,7 @@ const Modal=props=>{
     }
     const ModalOverlay=props=>{
         return <div className={classes.modal}>
-            <div className={classes.conetent}>{props.children}</div>
+            <div >{props.children}</div>
         </div>
     }
     const PortalElement=document.getElementById('overlays')

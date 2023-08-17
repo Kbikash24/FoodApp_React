@@ -26,9 +26,10 @@
   padding-left: 28px;
   padding-top: 12px;
   cursor: pointer;
+  transition: 0.7s;
 }
 .cart:hover{
-  background-color: rgba(250, 132, 21, 0.927);
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
 }
 h3 {
   position: relative;
@@ -42,7 +43,7 @@ h3 {
   margin-left: 4px;
   margin-top: 6px;
   border-radius: 7px;
-  background-color: rgb(225, 49, 1);
+  background-color: #f44d00;
   
   font-size: 15px;
 }
@@ -57,14 +58,14 @@ h3 {
   padding-bottom: 25px;
   padding-left: 15px;
   padding-right: 15px;
-  
+  background-color: rgba(238, 77, 8, 0.918);
   font-family: 'Bricolage Grotesque', sans-serif;
 font-family: 'Inter', sans-serif;
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Noto Sans', sans-serif;
-  background-color: rgb(180, 176, 176);
-  color: white;
-  background: linear-gradient(rgb(235, 79, 0), #f4c290);
+  
+  color: rgb(255, 255, 255);
+  
 }
 h2 {
   margin-left: 45px;
@@ -72,5 +73,24 @@ h2 {
 
 
 body{
-  background-color: #fedbb7;
+  background-color: rgba(247, 212, 212, 0.849);
+  
+ 
+}
+
+
+
+
+
+
+@keyframes fade-out {
+  from {
+    
+    opacity: 0;
+  }
+  to {
+   
+    
+    opacity: 1;
+  }
 }

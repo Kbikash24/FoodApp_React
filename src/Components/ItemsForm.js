@@ -1,14 +1,37 @@
+import { useContext, useState } from 'react';
+import './ItemsForm.css';
+import React from 'react';
+import cartCntxt from '../Store/CartContext';
 
-import './ItemsForm.css'
+const ItemsForm = (props) => {
+    const [quantity, setQuantity] = useState(1);
+    const cartcntxt = useContext(cartCntxt);
 
-const ItemsForm=()=>{
-    return <>
-    <form className="form">
-      
-        <input></input>
-        
-        <button>+Add</button>
-    </form>
-    </>
-}
+    const addItemToCart = (event) => {
+        event.preventDefault();
+        cartcntxt.addItem({ ...props.item, amount: quantity });
+        console.log('after updating', cartcntxt);
+    };
+
+    const handleQuantityChange = (event) => {
+        const newQuantity = parseInt(event.target.value);
+        setQuantity(newQuantity);
+    };
+
+    return (
+        <form className="form">
+            <input
+                id={'Amount_' + props.id}
+                type='number'
+                value={quantity}
+                onChange={handleQuantityChange}
+                max={5}
+                min={1}
+                step={1}
+            />
+            <button onClick={addItemToCart}>+Add</button>
+        </form>
+    );
+};
+
 export default ItemsForm;

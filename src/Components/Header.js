@@ -1,8 +1,17 @@
-import React from "react";
+
+import React, { useContext } from "react";
 import "../App.css";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import DinnerDiningIcon from '@mui/icons-material/DinnerDining';
+import CartContext from '../Store/CartContext';
 const Header = (props) => {
+
+  const cartContext = useContext(CartContext);
+  const totalQuantity = Object.values(cartContext.items).reduce(
+    (total, item) => total + item.amount,
+    0
+);
+ 
   return (
     <>
       <nav>
@@ -11,12 +20,16 @@ const Header = (props) => {
           <h1 className="title">ForkFleet<DinnerDiningIcon/></h1>
           <button className="cart" onClick={props.onShowCart}>
             <span>
+           
               <ShoppingCartIcon />
             </span>
             <span>
+           
               <h3>Cart</h3>
+              
             </span>
-            <span className="num">0</span>
+           
+            <span className="num">{totalQuantity}</span>
           </button>
         </div>
        

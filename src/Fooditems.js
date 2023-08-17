@@ -1,18 +1,20 @@
 const Fooditems = [
-    {
+    {  id:"item1",
       name: "Chicken Tikka Masala",
       desc: "Tender chicken pieces cooked in a rich tomato-based curry sauce.",
-      price: 12.99
+      price: 100
     },
     {
+      id:"item2",
       name: "Paneer Tikka",
       desc: "Marinated cottage cheese cubes grilled to perfection.",
-      price: 10.49
+      price: 100
     },
     {
+      id:"item3",
       name: "Biryani",
       desc: "Fragrant rice dish cooked with spices, vegetables, and choice of meat.",
-      price: 14.99
+      price: 100
     },
 
     
