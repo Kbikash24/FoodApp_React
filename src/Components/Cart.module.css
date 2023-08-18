@@ -4,8 +4,14 @@
     padding: 0;
    max-height:20rem;
     overflow: auto;
-    font-size: 18px;
+    font-size: 15px;
+    font-family:sans-serif;
+    
+    
 }
+
+
+  
   
   .total {
     display: flex;
@@ -48,3 +54,8 @@
     background-color:rgb(206, 11, 11);
     color: white;
   }
+
+
+ 
+
+  

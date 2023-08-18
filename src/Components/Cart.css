@@ -1,0 +1,66 @@
+/* Cart.module.css or a new CSS file */
+
+/* Style for each cart item */
+.Cart-item {
+    
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-bottom: 0px;
+ 
+    border-bottom: 1px solid #ccc;
+    font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Style for item name */
+  .item-name {
+    font-weight: bold;
+  }
+  
+  /* Style for price and amount */
+  .item-price,
+  .item-amount {
+    margin-left: 10px;
+  }
+  
+  /* Style for buttons */
+  .plus,.minus{
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    left:80%;
+    bottom:30px;
+  
+
+    
+  }
+  
+  /* Style for total section */
+  .cart-total {
+    text-align: right;
+    margin-top: 10px;
+    
+  }
+  .item-amount{
+    margin-left: 70px;
+    border:1px solid rgba(0, 0, 0, 0.146);
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 12px;
+  }
+  .plus:hover{
+    background-color: green;
+  }
+  .minus:hover{
+    background-color: red;
+  }
+  .item-price{
+    color: brown;
+    font-weight: bold;
+  }

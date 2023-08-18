@@ -10,7 +10,7 @@ const ItemsForm = (props) => {
     const addItemToCart = (event) => {
         event.preventDefault();
         cartcntxt.addItem({ ...props.item, amount: quantity });
-        console.log('after updating', cartcntxt);
+        
     };
 
     const handleQuantityChange = (event) => {
